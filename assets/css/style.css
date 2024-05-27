@@ -1,3 +1,4 @@
+/* Side navigation */
 .sidenav {
   height: 100%;
   width: 160px;
@@ -19,54 +20,94 @@
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
+/* Body styling */
 body {
   background-color: #000000;
-}
-.container {
-  text-align: center;
-  color: #818181;
-  max-width: 1000px;
-  margin: 0 auto; /* Center the container horizontally */
-  /* padding: 10px; */
-}
-header img{
-width: 200px;
+  margin: 0;
+  padding: 0;
 }
 
-#module-one{
-  max-width: 400px;
+/* Container styling */
+.container {
+  text-align: center;
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for better spacing */
+  padding-left: 180px; /* Offset for the fixed sidenav */
 }
+
+/* Header image styling */
+header img {
+  width: 200px;
+}
+
+/* Module one image styling */
+#module-one {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Coming soon section styling */
 .coming-soon {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap; /* Ensure images wrap on smaller screens */
 }
 .coming-soon img {
   width: 300px;
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
 }
+
+/* Footer styling */
 footer {
   padding-top: 100px;
+  text-align: center; /* Center the content */
 }
+
+footer section {
+  display: inline-block; /* Display sections inline */
+  margin: 0 20px; /* Add spacing between sections */
+}
+
 footer a {
   color: whitesmoke;
   text-decoration: none;
-  
+  padding: 10px;
 }
+
+/* Responsive styling for small screens */
 @media only screen and (max-width: 786px) {
-  .sidenav{
+  .sidenav {
     position: relative;
     width: 100%;
     text-align: center;
-   
+    padding-top: 0;
   }
   
-  .sidenav a{
+  .sidenav a {
     display: inline-block;
     justify-content: center;
+    padding: 10px;
   }
-
+  
+  .container {
+    padding-left: 0; /* Remove offset for smaller screens */
+    padding-top: 20px;
+  }
+  
+  .coming-soon {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-.container {
-  max-width: 100%;
+
+/* Ensure figcaption is properly centered */
+#about-text {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
 }
