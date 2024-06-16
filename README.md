@@ -1,33 +1,34 @@
-READ ME TEMPLATE 
+# Malcolm Franklin's Portfolio
 
-# My Portfolio
+## Welcome to my portfolio! 
 
-## Description
+I am Malcolm Franklin, currently attending the University of Denver's Web Development Bootcamp. My anticipated graduation date is August 13th. This portfolio showcases the projects and skills I have developed throughout my journey in web development.
 
-A simple portfolio that I will use to showcase the work I create within this bootcamp. I hope to use this as a tool to land job interviews and eventually find a job as a junior full stack developer. I built this with intent of setting myself up for the future.
+## About Me
 
-## Table of Contents 
+I am a passionate web developer with a keen interest in creating responsive and user-friendly websites. My goal is to build innovative solutions that provide excellent user experiences. Through my bootcamp, I have gained hands-on experience in various web technologies and frameworks.
 
-N/A
+## Projects
+### Project 1: Dark Whispers 
 
-## Installation
+Description: Dark Whispers is an interactive text-based adventure game designed to provide users with a captivating and immersive experience. The project is built using modern web development technologies and follows the Model-View-Controller (MVC) architectural pattern to ensure a clear separation of concerns and maintainability.
+Technologies Used: bcrypt, node.js, express.js handlebars.js, Bulma (framework), JWT token.
+Link: [Live Demo](https://darkwhispers.onrender.com/) | [Repository](https://github.com/sentorus67/DarkWhispers)
 
-Install as you would normally clone a repo. 
-For further instructions visit https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-
-## Usage
-
-N/A
-
-## Credits
-
-The sidebar was structrued with instructions and inspiration from w3schools - https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp.
+### Project 2: [Project Name]
+A website that can be used to read stories about differnet animals. 
+Technologies Used: HTML, CSS, JavaScript
+Link: [Live Demo](https://sentorus67.github.io/AnimalsandFables/) | [Repository](https://github.com/sentorus67/AnimalsandFables)
 
 
-<img width="1728" alt="Screenshot 2024-03-10 at 10 29 02 AM" src="https://github.com/MmalcolmM/my-portfolio/assets/151230116/c6df9ef0-ca46-4a42-bfba-f9b91c01072c">
+## Skills
+Languages: HTML, CSS, JavaScript
+Frameworks: Bootstap, Bulma, jQuery, Express.js
+Tools: Proficient VS code, version control (GitHub), Jest.js, database management, package managers. 
 
+## Contact
+Feel free to reach out to me via email or connect with me on LinkedIn.
 
-## License
-
-N/A
-
+Email: Malcolm.franklin.m@gmail.com
+LinkedIn: https://www.linkedin.com/in/mmalcolmm/
+Thank you for visiting my portfolio!
